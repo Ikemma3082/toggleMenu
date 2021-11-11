@@ -56,10 +56,10 @@ input:focus{
 }
 @keyframes blink{
     0% {
-        font-size: 2.5em;
+        font-size: 2em;
     }
     100% {
-font-size: 3em;
+font-size: 2.5em;
     }
 }
 .hamburger.active{
@@ -93,17 +93,17 @@ img{
     display: flex;
     height: 100vh;
     flex-direction: column;
-    justify-content: space-evenly;
 }
 .nav-link li{
     list-style: none;
+    margin: 50px 0;
 }
 .nav-link li a{
     color: var(--dark-gray);
     font-size: 1.5em;
     text-decoration: none;
     text-transform: capitalize;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 .nav-link.active{
   transform: translate(10%);
@@ -117,7 +117,7 @@ color: red;
 font-weight: 600;
 }
 .close__icon{
-    animation: blink 2s infinite ease;
+    animation: blink 1s infinite ease;
 }
 
 
